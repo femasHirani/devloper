@@ -1,0 +1,311 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #f8f8fa;
+}
+header {
+  background: #4718fe;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+header nav {
+    float: right;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+a.nav-item-active {
+  background: #fff;
+  padding: 3px 10px;
+  font-size: 14px;
+  margin: 0 0 0 30px;
+  border-radius: 3px;
+  color: #4717fe;
+}
+svg.nav-item {
+  margin: 0 0 0 30px;
+}
+header nav {
+  display: flex;
+  justify-content: end;
+}
+header nav a.nav-item {
+  color: #fff;
+  margin: 0 0 0 30px;
+}
+header nav {
+  display: flex;
+  justify-content: end;
+  padding: 30px 0 0 0;
+  align-items: center;
+}
+img.logo {
+  margin: 50px 0 0 0;
+}
+img.header-image {
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+.header-text {
+  padding: 80px 0 100px 0;
+}
+.header-text h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+.header-text p{
+  color: #fff;
+}
+.footer-section {
+  background: #4717fe;
+  padding: 80px 0;
+  float: left;
+  width: 100%;
+}
+.footer-section .footer-left {
+  width: 50%;
+  float: left;
+}
+.footer-section .footer-left ul.list {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+}
+.footer-section .footer-left ul.list li.list-items {
+  float: left;
+  list-style: none;
+  margin: 0 20px 0 0;
+  padding: 0 20px 0 0;
+  border-right: 1px solid #ccc;
+  color: #ccc;
+}
+.footer-section .footer-left ul.list li.list-items:last-child {
+  border-right: none;
+}
+.footer-section .footer-left ul.list li.list-items:first-child {
+  border-right: none;
+}
+.footer-section .footer-right {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+ul.logos-list {
+  width: 100%;
+  float: left;
+  margin: 30px 0 0 0;
+}
+ul.logos-list li.list-items {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-right_icon img.footer-logos {
+  margin: 0 0 0 10px;
+}
+ul.logos-list li.list-items {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ccc;
+  color: #ccc;
+}
+ul.logos-list li.list-items:first-child {
+  border-left: none;
+}
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.download-email button {
+  position: absolute;
+  right: 2.5px;
+  top: 2.5px;
+  border-radius: 50px;
+  padding: 12px 30px;
+  border: none;
+  background: #4717fe;
+  color: #fff;
+}
+.download-email input {
+  width: 88%;
+  background: #e9edff;
+  border: none;
+  padding: 15px 6%;
+  border-radius: 50px;
+}
+.download-email {
+  position: relative;
+  width: 500px;
+}
+.download-content h1 {
+  font-weight: bold;
+}
+.download-content span {
+    font-weight: 100;
+}
+.faq-section {
+  width: 100%;
+  background: rgb(233, 238, 255);
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 53.3vh;
+}
+.faq-section .faq-content {
+  width: 49%;
+  display: inline-block;
+}
+.faq-section .faq-image {
+  width: 50.65%;
+  display: inline-block;
+  text-align: right;
+}
+.faq-section .faq-image img{
+  width: 100%;
+}
+.faq-section .faq-image {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.faq-section .faq-content h2 {
+  font-weight: bold;
+  font-size: 33px;
+}
+.faq-section .faq-content h4 {
+  font-size: 12px;
+  margin: 0 0 20px 0;
+}
+.faq-section .faq-content h4.f-20 {
+  font-size: 18px;
+}
+
+.faq-section .faq-content button {
+  background: #4717fe;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 3px;
+  border: none;
+}
+.api {
+  width: 100%;
+  float: left;
+  padding: 90px 0 ;
+}
+.api h1.api-heading {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+.api .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.api .cards .card-active {
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 6px #cccccc24;
+}
+p.card-body {
+  font-size: 12px;
+}
+h3.card-head-active {
+    color: #5a32fc;
+    margin-top: 10px;
+}
+h3.card-head {
+  margin-top: 10px;
+}
+.api .cards .card {
+  padding: 30px 20px;
+  transition: 0.5s all ease;
+}
+.api .cards .card:hover {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 6px #cccccc24;
+}
+.blog-cards .blog-card {
+  width: 48%;
+  background: #fff;
+  box-shadow: 0 0 6px 6px #cccccc24;
+  border-radius: 50px 20px 20px 20px;
+  position: relative;
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 53%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.blog-bottom img{
+  float: left;
+}
+.blog-author {
+  position: absolute;
+  bottom: 10px;
+  left: 66%;
+}
+
+.blog-author b.blog-author {
+  position: static;
+  font-size: 12px;
+}
+.blog-cards .blog-card .blog-image {
+  float: left;
+}
+.blog-cards .blog-card .blog-image img{
+  float: left;
+}
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 80px 0;
+}
+.blog-content {
+  float: left;
+  width: 39%;
+  padding: 40px 0 0 40px;
+}
+.blog-content h6 {
+  color: #4717fe;
+  font-weight: 900;
+}
+.blog-content h3 {
+  margin: 10px 0;
+}
+.blog-heading {
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+.companies {
+  width: 100%;
+  float: left;
+  padding: 30px 0 0 0;
+}
+.companies a.company-items {
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 35px 0 0;
+  font-family: 'Righteous';
+}
